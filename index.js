@@ -56,6 +56,37 @@ app.post("/send-email", (req, res) => {
   });
 });
 
+
+
+// POST route to receive form data and send email
+app.post("/enquiry-now", (req, res) => {
+  const { name, email, phone,  subject, message } =
+    req.body;
+
+  // Email content
+  const mailOptions = {
+    from: process.env.SMTP_USER,
+    to: [process.env.RECIPIENT_EMAIL, process.env.SMTP_USER],
+    subject: "Form Submission Details",
+    text: `Form Details:
+    - Name: ${name}
+    - Email: ${email}
+    - Mobile: ${phone}
+    - Subject: ${subject}
+    - Message: ${message}
+    `,
+  };
+
+  // Send email
+  transporter.sendMail(mailOptions, (error, info) => {
+    if (error) {
+      return res.status(500).json({ message: "Error sending email", error });
+    } else {
+      return res.status(200).json({ message: "Email sent successfully", info });
+    }
+  });
+});
+
 // POST route to receive user consent form data with images uploaded as files
 app.post(
   "/user-consent",
