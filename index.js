@@ -190,10 +190,10 @@ We request you to acknowledge and confirm all the terms and conditions mentioned
 
   
   <p>
-    <a href="mailto:${process.env.SMTP_USER}?subject=User%20Consent%20Agreement&body=Dear%20Tradeace%20Team,%0D%0A%0D%0A%20I%20hereby%20acknowledge%20that%20I%20have%20carefully%20read%20and%20understood%20the%20User%20Consent,%20Terms%20%26%20Conditions,%20and%20Privacy%20Policy%20provided%20by%20Easy%20Share%20Services.%20By%20continuing%20to%20use%20your%20services%20and%20accessing%20your%20website,%20I%20confirm%20my%20acceptance%20and%20agreement%20to%20abide%20by%20these%20policies.%0D%0A%0D%0A%20I%20understand%20that%20it%20is%20my%20responsibility%20to%20comply%20with%20the%20terms%20outlined%20in%20these%20documents,%20and%20I%20agree%20to%20adhere%20to%20them%20in%20all%20interactions%20with%20Easy%20Share%20Services.%0D%0A%0D%0A%20Should%20I%20have%20any%20questions%20or%20require%20further%20clarification%20regarding%20these%20policies,%20I%20will%20not%20hesitate%20to%20reach%20out%20to%20your%20team%20for%20assistance.%0D%0A%0D%0A%20Thank%20you%20for%20your%20attention%20to%20this%20matter."
-      style="padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;">
-      Agree
-    </a>
+   <a href="mailto:${process.env.SMTP_USER}?subject=User%20Consent%20Agreement&body=Dear%20Tradeace%20Team,%0D%0A%0D%0A%20I%20hereby%20acknowledge%20that%20I%20have%20carefully%20read%20and%20understood%20the%20User%20Consent,%20Terms%20%26%20Conditions,%20and%20Privacy%20Policy%20provided%20by%20Tradeace.%20By%20continuing%20to%20use%20your%20services%20and%20accessing%20your%20website,%20I%20confirm%20my%20acceptance%20and%20agreement%20to%20abide%20by%20these%20policies.%0D%0A%0D%0A%20I%20understand%20that%20it%20is%20my%20responsibility%20to%20comply%20with%20the%20terms%20outlined%20in%20these%20documents,%20and%20I%20agree%20to%20adhere%20to%20them%20in%20all%20interactions%20with%20Tradeace.%0D%0A%0D%0A%20Should%20I%20have%20any%20questions%20or%20require%20further%20clarification%20regarding%20these%20policies,%20I%20will%20not%20hesitate%20to%20reach%20out%20to%20your%20team%20for%20assistance.%0D%0A%0D%0A%20Thank%20you%20for%20your%20attention%20to%20this%20matter."
+  style="padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;">
+  Agree
+</a>
   </p>
       <p>Thank you!</p>
     `,
